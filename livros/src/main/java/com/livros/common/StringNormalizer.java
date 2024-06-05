@@ -1,4 +1,4 @@
-package common;
+package com.livros.common;
 
 import java.text.Normalizer;
 import java.util.regex.Pattern;

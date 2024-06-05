@@ -1,6 +1,4 @@
-package teste;
-
-import model.LivroGenero;
+import com.livros.model.LivroGenero;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

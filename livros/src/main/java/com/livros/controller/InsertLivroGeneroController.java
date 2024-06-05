@@ -1,8 +1,8 @@
-package controller;
+package com.livros.controller;
 
-import dao.LivroGeneroDAO;
-import model.LivroGenero;
-import view.InsertLivroGeneroView;
+import com.livros.dao.LivroGeneroDAO;
+import com.livros.model.LivroGenero;
+import com.livros.view.InsertLivroGeneroView;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package view;
+package com.livros.view;
 
 import java.util.Scanner;
 

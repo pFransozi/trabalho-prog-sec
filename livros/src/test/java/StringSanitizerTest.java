@@ -1,6 +1,5 @@
-package teste;
 
-import common.StringSanitizer;
+import com.livros.common.StringSanitizer;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

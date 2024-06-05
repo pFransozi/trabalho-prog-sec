@@ -1,6 +1,4 @@
-package teste;
-
-import model.UsuarioGrupo;
+import com.livros.model.UsuarioGrupo;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

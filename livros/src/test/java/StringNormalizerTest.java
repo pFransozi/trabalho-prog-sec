@@ -1,8 +1,6 @@
-package teste;
-
 import static org.junit.Assert.*;
 
-import common.StringNormalizer;
+import com.livros.common.StringNormalizer;
 import org.junit.Test;
 
 public class StringNormalizerTest {

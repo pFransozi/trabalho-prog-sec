@@ -1,4 +1,4 @@
-package model;
+package com.livros.model;
 
 public class Livro {
     private int id;

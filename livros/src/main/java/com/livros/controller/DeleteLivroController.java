@@ -1,7 +1,7 @@
-package controller;
+package com.livros.controller;
 
-import dao.LivroDAO;
-import view.DeleteLivroView;
+import com.livros.dao.LivroDAO;
+import com.livros.view.DeleteLivroView;
 
 import java.util.Scanner;
 

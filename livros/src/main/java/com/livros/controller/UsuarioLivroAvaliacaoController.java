@@ -1,8 +1,8 @@
-package controller;
+package com.livros.controller;
 
-import dao.UsuarioLivroAvaliacaoDAO;
-import model.UsuarioLivroAvaliacao;
-import view.UsuarioLivroAvaliacaoView;
+import com.livros.dao.UsuarioLivroAvaliacaoDAO;
+import com.livros.model.UsuarioLivroAvaliacao;
+import com.livros.view.UsuarioLivroAvaliacaoView;
 import java.util.List;
 import java.util.Scanner;
 

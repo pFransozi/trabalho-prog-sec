@@ -1,4 +1,3 @@
-package teste;
 
 import org.junit.jupiter.api.Test;
 

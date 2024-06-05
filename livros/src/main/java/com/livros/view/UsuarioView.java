@@ -1,8 +1,8 @@
-package view;
+package com.livros.view;
 
-import common.DataValidate;
-import common.StringNormalizer;
-import model.Usuario;
+import com.livros.common.DataValidate;
+import com.livros.common.StringNormalizer;
+import com.livros.model.Usuario;
 import java.util.List;
 import java.util.Scanner;
 

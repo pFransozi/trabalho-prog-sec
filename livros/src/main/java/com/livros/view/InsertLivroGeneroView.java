@@ -1,8 +1,8 @@
-package view;
+package com.livros.view;
 
-import common.StringSanitizer;
+import com.livros.common.StringSanitizer;
 import java.util.Scanner;
-import model.LivroGenero;
+import com.livros.model.LivroGenero;
 
 public class InsertLivroGeneroView {
 

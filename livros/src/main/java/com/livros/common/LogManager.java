@@ -1,4 +1,4 @@
-package common;
+package com.livros.common;
 
 import java.io.File;
 import java.io.FileWriter;

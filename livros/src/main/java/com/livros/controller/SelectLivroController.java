@@ -1,8 +1,8 @@
-package controller;
+package com.livros.controller;
 
-import dao.LivroDAO;
-import model.Livro;
-import view.SelectLivroView;
+import com.livros.dao.LivroDAO;
+import com.livros.model.Livro;
+import com.livros.view.SelectLivroView;
 import java.util.List;
 import java.util.Scanner;
 

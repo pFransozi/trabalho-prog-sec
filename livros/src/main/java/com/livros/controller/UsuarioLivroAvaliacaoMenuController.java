@@ -1,6 +1,6 @@
-package controller;
+package com.livros.controller;
 
-import view.UsuarioLivroAvaliacaoMenuView;
+import com.livros.view.UsuarioLivroAvaliacaoMenuView;
 
 import java.util.Scanner;
 

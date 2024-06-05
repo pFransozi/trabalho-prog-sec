@@ -1,5 +1,3 @@
-package teste;
-
 import model.Livro;
 import org.junit.Test;
 import static org.junit.Assert.*;

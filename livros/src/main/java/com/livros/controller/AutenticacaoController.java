@@ -1,13 +1,13 @@
-package controller;
+package com.livros.controller;
 
-import com.amazonaws.auth.AWSStaticCredentialsProvider;
-import com.amazonaws.auth.BasicAWSCredentials;
-import com.amazonaws.regions.Regions;
-import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
-import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder;
-import com.amazonaws.services.cognitoidp.model.AdminInitiateAuthRequest;
-import com.amazonaws.services.cognitoidp.model.AdminInitiateAuthResult;
-import com.amazonaws.services.cognitoidp.model.AuthFlowType;
+// import com.amazonaws.auth.AWSStaticCredentialsProvider;
+// import com.amazonaws.auth.BasicAWSCredentials;
+// import com.amazonaws.regions.Regions;
+// import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProvider;
+// import com.amazonaws.services.cognitoidp.AWSCognitoIdentityProviderClientBuilder;
+// import com.amazonaws.services.cognitoidp.model.AdminInitiateAuthRequest;
+// import com.amazonaws.services.cognitoidp.model.AdminInitiateAuthResult;
+// import com.amazonaws.services.cognitoidp.model.AuthFlowType;
 
 import java.util.HashMap;
 import java.util.Map;

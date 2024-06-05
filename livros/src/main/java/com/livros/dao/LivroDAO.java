@@ -1,8 +1,8 @@
-package dao;
+package com.livros.dao;
 
-import common.ConnectionManager;
-import common.LogManager;
-import model.Livro;
+import com.livros.common.ConnectionManager;
+import com.livros.common.LogManager;
+import com.livros.model.Livro;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

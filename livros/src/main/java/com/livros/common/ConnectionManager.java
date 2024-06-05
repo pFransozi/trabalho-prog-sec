@@ -1,4 +1,4 @@
-package common;
+package com.livros.common;
 
 import java.sql.*;
 
@@ -19,7 +19,7 @@ public class ConnectionManager {
             Class.forName("com.mysql.cj.jdbc.Driver");
             this.connection = DriverManager.getConnection(url, user, password);
         } catch (SQLException | ClassNotFoundException e) {
-            System.out.println("Erro ao conectar com o banco de dados: " + e.getMessage());
+            LogManager.logError("Erro ao conectar com o banco de dados: ", e.getMessage());
             this.connection = null;
         }
     }
@@ -46,7 +46,7 @@ public class ConnectionManager {
             try {
                 this.connection.close();
             } catch (SQLException e) {
-                System.err.println("Erro ao fechar a conexão com o banco de dados.");
+                LogManager.logError("Erro ao fechar a conexão com o banco de dados.", e.getMessage());
             } finally {
                 this.connection = null;
             }

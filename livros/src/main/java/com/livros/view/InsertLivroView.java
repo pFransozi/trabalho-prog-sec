@@ -1,9 +1,9 @@
-package view;
+package com.livros.view;
 
-import common.StringSanitizer;
-import common.StringNormalizer;
-import common.DataValidate;
-import model.Livro;
+import com.livros.common.StringSanitizer;
+import com.livros.common.StringNormalizer;
+import com.livros.common.DataValidate;
+import com.livros.model.Livro;
 import java.util.Scanner;
 
 public class InsertLivroView {

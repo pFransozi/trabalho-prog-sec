@@ -1,4 +1,4 @@
-package common;
+package com.livros.common;
 
 public class StringSanitizer {
 

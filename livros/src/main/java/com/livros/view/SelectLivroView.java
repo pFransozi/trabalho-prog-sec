@@ -1,6 +1,6 @@
-package view;
+package com.livros.view;
 
-import model.Livro;
+import com.livros.model.Livro;
 import java.util.List;
 import java.util.Scanner;
 

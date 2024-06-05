@@ -1,6 +1,4 @@
-package teste;
-
-import model.Usuario;
+import com.livros.model.Usuario;
 
 import org.junit.Test;
 import static org.junit.Assert.*;

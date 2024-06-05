@@ -1,5 +1,6 @@
-import controller.MenuController;
-import controller.AutenticacaoController;
+import com.livros.controller.MenuController;
+import com.livros.controller.AutenticacaoController;
+
 public class Main {
     public static void main(String[] args) {
         AutenticacaoController autenticacaoController = new AutenticacaoController();

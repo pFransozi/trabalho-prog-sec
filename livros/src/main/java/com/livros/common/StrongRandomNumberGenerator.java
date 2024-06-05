@@ -1,4 +1,4 @@
-package common;
+package com.livros.common;
 
 import java.security.SecureRandom;
 import java.util.Random;

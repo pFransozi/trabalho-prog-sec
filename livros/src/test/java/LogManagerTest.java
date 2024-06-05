@@ -1,7 +1,6 @@
-package teste;
 
-import common.LogManager;
-import common.StrongRandomNumberGenerator;
+import com.livros.common.LogManager;
+import com.livros.common.StrongRandomNumberGenerator;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
