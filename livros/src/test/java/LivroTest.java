@@ -1,4 +1,4 @@
-import model.Livro;
+import com.livros.model.Livro;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

@@ -1,9 +1,20 @@
+package com.livros;
+
 import com.livros.controller.MenuController;
+import com.livros.common.LogManager;
 import com.livros.controller.AutenticacaoController;
 
 public class Main {
     public static void main(String[] args) {
-        AutenticacaoController autenticacaoController = new AutenticacaoController();
+
+        AutenticacaoController autenticacaoController = null;
+
+        try {
+            autenticacaoController = new AutenticacaoController();
+        } catch (RuntimeException e) {
+            LogManager.logError("Erro de inicialização", e.getMessage());
+            System.exit(0);
+        }
 
         java.util.Scanner scanner = new java.util.Scanner(System.in);
 
